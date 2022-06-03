@@ -28,8 +28,8 @@ The solution is divided into 3 projects:
 
 ## Usage Examples
 
-![Data input](https://imgur.com/a/atqdLtO)
-![Result](https://imgur.com/a/dR1wxvG)
+![Data input](https://i.imgur.com/WRfOmYB.png)
+![Result](https://i.imgur.com/cfewVte.png)
 
 
 #### Tech
