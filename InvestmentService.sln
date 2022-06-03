@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentCalculator", "InvestmentCalculator\InvestmentCalculator\InvestmentCalculator.csproj", "{1B1867D2-C09C-48D8-A8D5-FF3E92CB7FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentCalculatorTests", "InvestmentCalculatorTests\InvestmentCalculatorTests.csproj", "{AC7CB0AF-BF5F-4DA6-B1E2-7E4825B7CAEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentCalculatorApp", "InvestmentCalculatorApp\InvestmentCalculatorApp.csproj", "{941FA3A9-B698-4A96-8FE9-66DEECE4046D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B1867D2-C09C-48D8-A8D5-FF3E92CB7FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1867D2-C09C-48D8-A8D5-FF3E92CB7FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1867D2-C09C-48D8-A8D5-FF3E92CB7FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1867D2-C09C-48D8-A8D5-FF3E92CB7FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7CB0AF-BF5F-4DA6-B1E2-7E4825B7CAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7CB0AF-BF5F-4DA6-B1E2-7E4825B7CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7CB0AF-BF5F-4DA6-B1E2-7E4825B7CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7CB0AF-BF5F-4DA6-B1E2-7E4825B7CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941FA3A9-B698-4A96-8FE9-66DEECE4046D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941FA3A9-B698-4A96-8FE9-66DEECE4046D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941FA3A9-B698-4A96-8FE9-66DEECE4046D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941FA3A9-B698-4A96-8FE9-66DEECE4046D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

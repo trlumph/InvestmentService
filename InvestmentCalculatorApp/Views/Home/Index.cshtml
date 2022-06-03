@@ -1,0 +1,24 @@
+﻿@using WebApplication2.Controllers
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@using (Html.BeginForm("GetInvestmentDetails", "Home", FormMethod.Post))
+{
+    <div class="container">
+        <h1>Calculate future investment interest return</h1>
+        <a>What's your investment</a>
+        <input type="number" placeholder="Amount" name="Amount" required autofocus>
+        <a>For how many years</a>
+        <input type="number" placeholder="Years" name="Years" required>
+        <a>What's the yearly rate</a>
+        <input type="number" placeholder="Yearly rate" name="YearlyRate" step="any" required>
+        <a>The date of the agreement</a>
+        <input type="date" placeholder="Agreement Date" name="AgreementDate" required>
+        <a>The date of the calculation</a>
+        <input type="date" placeholder="Calculation Date" name="CalculationDate" required>
+        <input type="submit" action="Button_Click" value="Calculate">
+        <b value="<%= Message %>" id="message">lkjlkjlkjkl</b>
+    </div>
+}
