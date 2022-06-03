@@ -41,6 +41,7 @@ Asp.Net Core
 #### NuGet Packages
 
 [XUnit](https://www.nuget.org/packages/xunit) - for unit testing
+
 [FluentValidation](http://fluentvalidation.net) - for convinient data validation
 
 
