@@ -1,4 +1,6 @@
-﻿@using WebApplication2.Controllers
+﻿@model InvestmentCalculator.Investment
+
+@using WebApplication2.Controllers
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -13,12 +15,27 @@
         <a>For how many years</a>
         <input type="number" placeholder="Years" name="Years" required>
         <a>What's the yearly rate</a>
-        <input type="number" placeholder="Yearly rate" name="YearlyRate" step="any" required>
+        <input type="number" placeholder="Yearly rate (decimal point)" name="YearlyRate" step="any" required>
         <a>The date of the agreement</a>
         <input type="date" placeholder="Agreement Date" name="AgreementDate" required>
         <a>The date of the calculation</a>
         <input type="date" placeholder="Calculation Date" name="CalculationDate" required>
         <input type="submit" action="Button_Click" value="Calculate">
-        <b value="<%= Message %>" id="message">lkjlkjlkjkl</b>
+
+        @if (TempData["AlertMessage"] is not null)
+        {
+            if (TempData["AlertMessage"] is WebApplication2.Models.MyOkResult okResult)
+            {
+                <div class="result-message">
+                    <h2>$@okResult.Value</h2>
+                </div>
+            }
+            else if (TempData["AlertMessage"] is WebApplication2.Models.MyBadResult badResult)
+            {
+                <div class="warning-message">
+                    <strong>Error:</strong> @badResult.ErrorMessage
+                </div>
+            }
+        }
     </div>
 }

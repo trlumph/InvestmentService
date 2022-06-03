@@ -6,18 +6,14 @@ class Program
 {
     public static void Main()
     {
-        var result = InvestmentCalculator.CalculateSumOfFutureInterests(
-            new Investment(
-                new DateTime(2022, 06, 1),
-                new DateTime(2022, 06, 1),
-                200_000, 
-                0.04m,
-                30
-            )
-        );
-        
+        var result = new Investment(
+            new DateTime(2022, 06, 1),
+            new DateTime(2022, 06, 1),
+            200_000,
+            0.04m,
+            30
+        ).CalculateSumOfFutureInterests();
+
         Console.WriteLine($"${result:N2}");
-        var calculator = new ConsoleInvestmentCalculator();
-        calculator.Start();
     }
 }

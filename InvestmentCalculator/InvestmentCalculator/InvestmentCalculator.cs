@@ -51,3 +51,11 @@ public static class InvestmentCalculator
         return sumOfFutureInterest;
     }
 }
+
+public static class MyExtensions
+{
+    public static decimal CalculateSumOfFutureInterests(this Investment investment)
+    {
+        return InvestmentCalculator.CalculateSumOfFutureInterests(investment);
+    }
+}
