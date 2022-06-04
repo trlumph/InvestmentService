@@ -91,7 +91,7 @@ public class InvestmentCalculatorTests
             }
 
             [Fact]
-            public void ReturnAnExpectedAmount_WhenCalculationDateIsOneMonthAfterAgreementDate()
+            public void WhenCalculationDateIsOneMonthAfterAgreementDate()
             {
                 // Arrange
                 var investment = new SUT.Investment(
@@ -112,7 +112,7 @@ public class InvestmentCalculatorTests
             }
 
             [Fact]
-            public void ReturnAnExpectedAmount_WhenCalculationDateIsOneYearAfterAgreementDate()
+            public void WhenCalculationDateIsOneYearAfterAgreementDate()
             {
                 // Arrange
                 var investment = new SUT.Investment(
@@ -133,7 +133,7 @@ public class InvestmentCalculatorTests
             }
 
             [Fact]
-            public void ReturnAnExpectedAmount_WhenCalculationDateIs29DaysAfterAgreementDate()
+            public void WhenCalculationDateIs29DaysAfterAgreementDate()
             {
                 // Arrange
                 var investment = new SUT.Investment(
@@ -154,7 +154,7 @@ public class InvestmentCalculatorTests
             }
 
             [Fact]
-            public void ReturnAnExpectedAmount_WhenCalculationDateIsOneDayBeforePayment()
+            public void WhenCalculationDateIsOneDayBeforePayment()
             {
                 // Arrange
                 var investment = new SUT.Investment(
@@ -175,7 +175,7 @@ public class InvestmentCalculatorTests
             }
 
             [Fact]
-            public void ReturnAnExpectedAmount_WhenCalculationDateIsNewPaymentDay()
+            public void WhenCalculationDateIsNewPaymentDay()
             {
                 // Arrange
                 var investment = new SUT.Investment(
@@ -196,7 +196,7 @@ public class InvestmentCalculatorTests
             }
 
             [Fact]
-            public void ReturnAnExpectedAmount_WhenCalculationDateIn30DaysAfterAgreementDate()
+            public void WhenCalculationDateIn30DaysAfterAgreementDate()
             {
                 // Arrange
                 var investment = new SUT.Investment( 
